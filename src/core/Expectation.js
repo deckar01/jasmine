@@ -61,6 +61,7 @@ getJasmineRequireObj().Expectation = function() {
           matcherName: name,
           passed: result.pass,
           message: message,
+          error: error,
           actual: this.actual,
           expected: expected // TODO: this may need to be arrayified/sliced
         }
